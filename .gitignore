@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Uploaded and processed videos
+uploads/
+edited_*
+
+# Secrets
+client_secrets.json
+
+# Logs
+*.log
+
+# Temporary files
+temp_*

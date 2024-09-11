@@ -1,0 +1,20 @@
+<!-- templates\index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영상 자동 편집 및 업로드</title>
+</head>
+<body>
+    <h1>영상 자동 편집 및 YouTube 업로드</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <br><br>
+        <input type="checkbox" id="to_japanese" name="to_japanese">
+        <label for="to_japanese">일본어 번역 추가</label>
+        <br><br>
+        <button type="submit">업로드 및 처리 시작</button>
+    </form>
+</body>
+</html>
